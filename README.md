@@ -19,7 +19,7 @@ For start the example: mvn spring-boot:run
   - userC/userC -> list person of domain C
   - admin/admin -> list all person
 
-logout : http://localhost:8080/logout
+- logout : http://localhost:8080/logout
 
 pros:
 - clean (AOP + annotations)
