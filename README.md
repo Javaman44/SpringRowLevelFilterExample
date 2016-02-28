@@ -14,10 +14,10 @@ For start the example: mvn spring-boot:run
 
 - Go to browser: http://localhost:8080/people
 - Put the right credential:
-  userA/userA -> list person of domain A
-  userB/userB -> list person of domain B
-  userC/userC -> list person of domain C
-  admin/admin -> list all person
+  - userA/userA -> list person of domain A
+  - userB/userB -> list person of domain B
+  - userC/userC -> list person of domain C
+  - admin/admin -> list all person
 
 logout : http://localhost:8080/logout
 
