@@ -10,15 +10,14 @@ To filter you have to:
 - annotate the entity with: @DynamicFilter(value={MyCustomFilterClass.class})
 - implement the custom filter class (with RowLevelFilter interface)
 
-For lunch the example:
-mvn spring-boot:run
+For start the example: mvn spring-boot:run
 
-Go to browser: http://localhost:8080/people
-Put the right credential:
-userA/userA -> list person of domain A
-userB/userB -> list person of domain B
-userC/userC -> list person of domain C
-admin/admin -> list all person
+- Go to browser: http://localhost:8080/people
+- Put the right credential:
+  userA/userA -> list person of domain A
+  userB/userB -> list person of domain B
+  userC/userC -> list person of domain C
+  admin/admin -> list all person
 
 logout : http://localhost:8080/logout
 
